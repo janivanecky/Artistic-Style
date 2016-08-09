@@ -11,7 +11,7 @@ easily to noise initialization on line 109 in `style.py`. I used Adam for optimi
 
 * Tensorflow
 * PIL/Pillow
-* This <a href="https://dl.dropboxusercontent.com/u/50333326/vgg19.npy">npy file</a> from <a href="https://github.com/machrisaa/tensorflow-vgg">Chris</a>
+* This <a href="https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs">npy file</a> from <a href="https://github.com/machrisaa/tensorflow-vgg">Chris</a>
 
 ## Usage
 
