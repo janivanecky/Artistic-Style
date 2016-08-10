@@ -108,7 +108,7 @@ with tf.name_scope("constant"):
 # use noise as an initial image 
 #input_image = tf.Variable(tf.truncated_normal([1, HEIGHT, WIDTH, 3], 0.5, 0.1))
 # use content image as an initial image
-input_image = tf.Variable(np.expand_dims(images[0,:,:,:]))
+input_image = tf.Variable(np.expand_dims(images[0,:,:,:], 0))
 with tf.name_scope("variable"):
     vgg_var = vgg.Vgg19()
     vgg_var.build(input_image)
